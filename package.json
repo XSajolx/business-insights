@@ -1,9 +1,9 @@
 {
-  "name": "business-analytics",
+  "name": "business-insights",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://xsajolx.github.io/business-analytics/",
+  "homepage": "https://xsajolx.github.io/business-insights/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

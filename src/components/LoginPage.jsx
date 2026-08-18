@@ -81,7 +81,7 @@ const LoginPage = () => {
               <circle cx="12" cy="12" r="3" stroke="#58A6FF" strokeWidth="1.5" fill="none"/>
             </svg>
           </div>
-          <h1 style={styles.title}>Business Analytics</h1>
+          <h1 style={styles.title}>Business Insights</h1>
           <p style={styles.subtitle}>Customer Experience Analytics Platform</p>
         </div>
 

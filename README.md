@@ -1,4 +1,4 @@
-# Business Analytics (Demo Build)
+# Business Insights (Demo Build)
 
 A fully self-contained, **mock-data** copy of the CX Insights dashboard. It runs with
 **no environment variables, no Supabase project, and no backend** — every data source

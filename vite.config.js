@@ -8,9 +8,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 // https://vite.dev/config/
 export default defineConfig(({ command }) => ({
   plugins: [react()],
-  // Served from https://xsajolx.github.io/business-analytics/ on GitHub Pages;
+  // Served from https://xsajolx.github.io/business-insights/ on GitHub Pages;
   // root during local dev.
-  base: command === 'build' ? '/business-analytics/' : '/',
+  base: command === 'build' ? '/business-insights/' : '/',
   resolve: {
     alias: {
       // Demo build: replace the real Supabase SDK with an in-browser mock so the

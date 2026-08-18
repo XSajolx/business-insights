@@ -187,7 +187,7 @@ const Sidebar = ({ activeTab, onTabChange, isCollapsed, onToggle, onSignOut, use
                     <div className="brand-logo">
                         <img src={`${import.meta.env.BASE_URL}fn-logo.png`} alt="FN" style={{ width: 28, height: 28, objectFit: 'contain' }} />
                     </div>
-                    <span className="brand-title">Business Analytics</span>
+                    <span className="brand-title">Business Insights</span>
                 </div>
                 <button className="collapse-btn" onClick={onToggle}>
                     <Icons.ChevronLeft />
