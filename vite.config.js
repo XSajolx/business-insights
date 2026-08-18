@@ -6,9 +6,11 @@ import { fileURLToPath } from 'node:url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: '/',
+  // Served from https://xsajolx.github.io/business-analytics/ on GitHub Pages;
+  // root during local dev.
+  base: command === 'build' ? '/business-analytics/' : '/',
   resolve: {
     alias: {
       // Demo build: replace the real Supabase SDK with an in-browser mock so the
@@ -20,4 +22,4 @@ export default defineConfig({
     port: 5173,
     strictPort: true,
   },
-})
+}))
