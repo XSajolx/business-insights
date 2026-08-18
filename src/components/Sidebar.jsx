@@ -185,7 +185,7 @@ const Sidebar = ({ activeTab, onTabChange, isCollapsed, onToggle, onSignOut, use
             <div className="sidebar-header">
                 <div className="sidebar-brand">
                     <div className="brand-logo">
-                        <img src="/fn-logo.png" alt="FN" style={{ width: 28, height: 28, objectFit: 'contain' }} />
+                        <img src={`${import.meta.env.BASE_URL}fn-logo.png`} alt="FN" style={{ width: 28, height: 28, objectFit: 'contain' }} />
                     </div>
                     <span className="brand-title">Business Analytics</span>
                 </div>
